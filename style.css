@@ -13,6 +13,9 @@
     margin: 20px;
     
 }
+#hide-list label:hover {
+    background: #efefef;
+}
 #hide-list input [type='checkbox'] {
     display: none;
 }
@@ -29,4 +32,10 @@ form#add input[type ='text'] {
 }
 form#add input[type='submit'] {
     padding: 5px 0;
+    width: 70px;
+    background: #6B8E23;
+    color: #fff;
+}
+form#add input[type='submit']:hover {
+    background: #7c9f34;
 }
