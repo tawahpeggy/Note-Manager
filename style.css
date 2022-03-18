@@ -1,0 +1,32 @@
+.note-list ul li input {
+    display: none;
+    padding: 5px 0 ;
+    width: 70%;
+    margin: 5px auto 0 auto;
+
+}
+#add-notes {
+    padding: 6px 0;
+
+}
+#hide-list {
+    margin: 20px;
+    
+}
+#hide-list input [type='checkbox'] {
+    display: none;
+}
+form#add {
+    margin-top: 10px;
+    text-align: center;
+}
+form#add input {
+    border-radius: 2px;
+}
+form#add input[type ='text'] {
+    padding: 5px 0 5px 2px;
+    width: 250px;
+}
+form#add input[type='submit'] {
+    padding: 5px 0;
+}
