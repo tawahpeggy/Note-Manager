@@ -1,4 +1,4 @@
-.note-list ul li input {
+.note-list, ul, li, input {
     display: none;
     padding: 5px 0 ;
     width: 70%;
@@ -30,12 +30,15 @@ form#add input[type ='text'] {
     padding: 5px 0 5px 2px;
     width: 250px;
 }
-form#add input[type='submit'] {
+
+#add-btn {
     padding: 5px 0;
     width: 70px;
     background: #6B8E23;
     color: #fff;
+    cursor: pointer;
 }
-form#add input[type='submit']:hover {
+#add-btn:hover{
     background: #7c9f34;
+    cursor: pointer;
 }
